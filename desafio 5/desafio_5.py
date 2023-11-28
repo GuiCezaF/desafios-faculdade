@@ -16,9 +16,6 @@ def count_change(money, coins):
 
 dindin = 4
 moeditchas = [1, 2]
-# dindin = 10
-# moeditchas = [5, 2, 3]
-# dindin = 11
-# moeditchas = [5, 7]
+
 dividindo_moedas = count_change(dindin, moeditchas)
 print(dividindo_moedas)

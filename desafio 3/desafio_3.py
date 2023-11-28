@@ -7,8 +7,6 @@ será "clockwise" ou "counter-clockwise"
 
 
 def girar_matriz(matriz: list, direcao: str) -> list:
-    if not matriz or not matriz[0]:
-        return matriz
 
     linhas, colunas = len(matriz), len(matriz[0])
 

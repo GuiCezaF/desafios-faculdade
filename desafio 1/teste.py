@@ -1,17 +1,22 @@
 import unittest
 from desafio1 import sum_intervals
 
+# intervalos = [
+#     [1, 5],
+#     [10, 20],
+#     [1, 6],
+#     [16, 19],
+#     [5, 11]
+# ]
 intervalos = [
-    [1, 5],
-    [10, 20],
-    [1, 6],
-    [16, 19],
-    [5, 11]
+    [0, 20],
+    [-100000000, 10],
+    [30, 40]
 ]
 
 
 def caso1():
-    assert sum_intervals(intervalos)
+    assert sum_intervals(intervalos) == 100000030
     print("OK - 1")
 
 

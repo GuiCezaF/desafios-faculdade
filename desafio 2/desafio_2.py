@@ -1,7 +1,7 @@
 # Escreva um algoritmo que pegue um array e mova todos os zeros para o final, preservando a ordem dos outros elementos
 
 
-def move_zeros(arr):
+def move_zeros(arr: list) -> list:
     zeros = []
 
     for num in arr:

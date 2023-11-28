@@ -13,7 +13,7 @@ def caso_2():
 
 
 def caso_3():
-    assert count_change(1, [5, 7]) == 0
+    assert count_change(11, [5, 7]) == 0
     print("OK - 3")
 
 
